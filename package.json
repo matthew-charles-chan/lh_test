@@ -1,0 +1,19 @@
+{
+  "name": "lh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-react": "^7.20.5",
+    "lighthouse": "^6.1.1"
+  },
+  "scripts": {
+    "dev": "nodemon server --exec babel-node --config .nodemonrc.json | pino-pretty"
+  },
+  "dependencies": {
+    "browserless": "^8.0.8",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^5.2.1"
+  }
+}
